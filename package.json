@@ -1,0 +1,30 @@
+{
+  "name": "connect-postsql",
+  "description": "PostSQL (PostgreSQL delegating all work to database functions) session store for Connect",
+  "version": "0.9.0",
+  "author": {
+    "name": "Hannu Krosing",
+    "email": "hannu@2ndQuadrant.com"
+  },
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:postsql/connect-postsql.git"
+  },
+  "dependencies": {
+    "pg": "2.11.1",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "connect": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/postsql/connect-postsql/issues"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
